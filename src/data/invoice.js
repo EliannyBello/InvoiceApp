@@ -1,7 +1,7 @@
 import React from "react";
 
-const invoce = {
-    id: 10,
+const Invoice = {
+    id: 50,
     client: {
         name: 'Pepe',
         lastName: 'Doe',
@@ -19,20 +19,25 @@ const invoce = {
     },
     items: [
         {
+            id: 1,
             product: 'table',
             price: 50,
             quantuty: 4,
         },
         {
+            id:2,
             product: 'mouse',
             price: 20,
             quantuty: 10,
         },
         {
+            id:3,
             product: 'mousePad',
             price: 15,
             quantuty: 5,
         }
     ],
-    
+
 }
+
+export default Invoice;
